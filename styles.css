@@ -1,0 +1,194 @@
+body {
+	background: url("images/countdown.jpg");
+	background-repeat: no-repeat;	
+	background-size: cover;
+	overflow-wrap: hidden;
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.main {
+	position: relative;
+	padding: 1px;
+	background: -webkit-linear-gradient(279deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
+	background: -o-linear-gradient(279deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
+	background: linear-gradient(-9deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
+
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.title {
+	font-size: 3.5rem;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.description {
+	margin: auto;
+	width: 50%;
+}
+
+.email-input-area{
+	position: relative;
+	width: 400px;
+	height: 50px;
+	margin: 40px auto;
+}
+
+.email-input {
+	position: absolute;
+	right: 100px;
+	left: -10px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	padding-left: 20px;
+	border-radius: 40px;
+	border: 0;
+	outline: 0;
+	transition: all .2s;
+	background: #F1F2F3;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, .1), 0px 0px 0px 5px rgba(255, 255, 255, .3);
+	border: 1px solid transparent;
+}
+
+.email-input:focus {
+	border-color: #f89fbc;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, .1), 0px 0px 0px 5px #f89fbc66;
+
+}
+
+.submit-btn {
+	position: absolute;
+	border: none;
+	outline: none;
+	top: 5px;
+	bottom: 2px;
+	right: -5px;
+	width: 120px;
+	text-align: center;
+	border-radius: 40px;
+	transition: all .3s;
+	background: #F84982;
+	color: #fff;
+}
+
+.submit-btn:hover {
+	background: #e40b52;
+}
+
+.countdown{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+}
+
+.countdown-box{
+	background: #fff;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, .1), 0px 0px 0px 5px rgba(255, 255, 255, .3);
+	border: 1px solid transparent;
+}
+
+.countdown-number{
+	font-size: 2rem;
+	line-height: 1;
+	color: #e40b52;
+}
+
+.countdown-text{
+	font-size: 12px;
+	color: #222;
+	font-weight: 800;
+}
+
+
+/* Footer Section */
+#footer {
+	line-height: 1.5;
+}
+
+#footer p {
+	font-size: 14px;
+}
+
+.social-icon{
+	border-radius: 100%;
+	padding: 15px;
+	margin: 30px 5px;
+	background: #fff;
+	color: #8f8f8f;
+}
+
+.social-icon:hover{
+	color: #5f5f5f;
+}
+
+.copyright{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+
+@media (max-width: 1240px){
+	.description{
+		width: 60%;
+	}
+}
+
+@media (max-width: 900px){
+	.title{
+		font-size: 3rem;
+	}
+
+	.description{
+		width: 80%;
+	}
+
+	.email-input-area{
+		width: 350px;
+	}
+
+	.copyright{
+	padding: 20px;
+	margin-bottom: 60px;
+	}
+
+}
+
+@media (max-width: 600px){
+	body{
+		font-size: 16px;
+	}
+
+	.description{
+		width: 95%;
+	}
+
+	.email-input-area{
+		width: 300px;
+		height: 40px;
+	}
+
+	.countdown-box{
+		width: 40px;
+		height: 40px;
+	}
+
+	.countdown-number{
+		font-size: 1.6rem;
+	}
+}
