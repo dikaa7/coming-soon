@@ -203,6 +203,10 @@ body {
 		width: 30px;
 		height: 30px;
 	}
+
+	.countdown-number{
+		font-size: 1.2rem;
+	}
 	
 	.email-input-area{
 		width: 300px;
@@ -211,6 +215,29 @@ body {
 
 	.submit-btn{
 		width: 80px;
+	}	
+}
+
+@media (max-width: 400px){
+	body{
+		font-size: 14px;
 	}
-	
+
+	.title{
+		font-size: 1.5rem;
+	}
+
+	.countdown-box{
+		margin: 5px;
+		padding: 10px;
+	}
+
+	.submit-btn{
+		width: 50px;
+	}
+
+	.social-icon{
+		padding: 10px;
+		margin: 20px 5px;
+	}
 }
