@@ -240,8 +240,8 @@ body {
 	}
 
 	.countdown-box{
-		width: 30px;
-		height: 30px;
+		width: 25px;
+		height: 25px;
 		margin: 10px;
 	}
 
@@ -261,7 +261,7 @@ body {
 	}
 
 	.submit-btn{
-		top: 1px;
+		top: 2px;
 		bottom: -2px;
 		right: -10px;
 		width: 70px;
