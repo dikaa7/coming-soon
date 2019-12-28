@@ -211,6 +211,11 @@ body {
 		font-size: 1.2rem;
 		line-height: 0.7;
 	}
+
+	.countdown-text{
+		line-height: 0.7;
+		font-size: 0.8rem;
+	}
 	
 	.email-input-area{
 		width: 300px;
