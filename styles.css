@@ -206,6 +206,7 @@ body {
 
 	.countdown-number{
 		font-size: 1.2rem;
+		line-height: 0.7;
 	}
 	
 	.email-input-area{
@@ -228,8 +229,13 @@ body {
 	}
 
 	.countdown-box{
-		margin: 5px;
+		margin: 10px;
 		padding: 10px;
+	}
+
+	.email-input-area{
+		width: 250px;
+		height: 40px;
 	}
 
 	.submit-btn{
