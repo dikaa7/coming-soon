@@ -17,7 +17,6 @@ body {
 	background: -webkit-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
 	background: -o-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
 	background: linear-gradient(-9deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
-
 }
 
 .container {
@@ -191,6 +190,10 @@ body {
 		font-size: 16px;
 	}
 
+	.container{
+		width: 90%;
+	}
+
 	.title{
 		font-size: 2rem;
 	}
@@ -229,8 +232,15 @@ body {
 	}
 
 	.countdown-box{
+		width: 20px;
+		height: 20px;
 		margin: 10px;
 		padding: 10px;
+	}
+
+	.countdown-number{
+		line-height: 0.7;
+		font-size: 1rem;
 	}
 
 	.email-input-area{
@@ -239,7 +249,7 @@ body {
 	}
 
 	.submit-btn{
-		width: 50px;
+		width: 70px;
 	}
 
 	.social-icon{
