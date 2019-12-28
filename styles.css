@@ -208,13 +208,13 @@ body {
 	}
 
 	.countdown-number{
-		font-size: 1.2rem;
-		line-height: 0.7;
+		font-size: 14px;
+		line-height: 1;
 	}
 
-	.countdown-text{
-		line-height: 0.7;
-		font-size: 1rem;
+	.countdown-text {
+		line-height: 1;
+		font-size: 12px;
 	}
 	
 	.email-input-area{
@@ -223,13 +223,16 @@ body {
 	}
 
 	.submit-btn{
+		top: 3px;
+		bottom: 0px;
+		right: -8px;
 		width: 80px;
 	}	
 }
 
-@media (max-width: 400px){
+@media (max-width: 450px){
 	body{
-		font-size: 14px;
+		font-size: 12px;
 	}
 
 	.title{
@@ -240,12 +243,11 @@ body {
 		width: 30px;
 		height: 30px;
 		margin: 10px;
-		padding: 5px;
 	}
 
 	.countdown-number{
-		line-height: 0.7;
-		font-size: 14px;
+		line-height: 0.8;
+		font-size: 12px;
 	}
 
 	.countdown-text{
@@ -259,6 +261,9 @@ body {
 	}
 
 	.submit-btn{
+		top: 1px;
+		bottom: -2px;
+		right: -10px;
 		width: 70px;
 	}
 
