@@ -144,13 +144,26 @@ body {
 
 
 @media (max-width: 1240px){
+	.title{
+		margin-top: 60px;
+	}
+
 	.description{
-		width: 60%;
+		width: 70%;
+	}
+
+	.email-input-area{
+		margin: 40px auto;
+	}
+
+	#footer{
+		margin: 50px auto;
 	}
 }
 
 @media (max-width: 900px){
 	.title{
+		margin-top: 80px;
 		font-size: 3rem;
 	}
 
@@ -160,35 +173,31 @@ body {
 
 	.email-input-area{
 		width: 350px;
+		margin: 50px auto;
 	}
 
 	.copyright{
-	padding: 20px;
+	padding: 30px;
 	margin-bottom: 60px;
 	}
 
+	#footer{
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 600px){
-	body{
-		font-size: 16px;
-	}
-
 	.description{
 		width: 95%;
 	}
 
+	.countdown-box{
+		width: 45px;
+		height: 45px;
+	}
 	.email-input-area{
 		width: 300px;
-		height: 40px;
+		height: 50px;
 	}
 
-	.countdown-box{
-		width: 40px;
-		height: 40px;
-	}
-
-	.countdown-number{
-		font-size: 1.6rem;
-	}
 }
