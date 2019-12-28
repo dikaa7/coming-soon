@@ -237,15 +237,20 @@ body {
 	}
 
 	.countdown-box{
-		width: 35px;
-		height: 35px;
-		margin: 10px;
-		padding: 10px;
+		width: 30px;
+		height: 30px;
+		margin: 3px;
+		padding: 5px;
 	}
 
 	.countdown-number{
 		line-height: 0.7;
-		font-size: 1rem;
+		font-size: 14px;
+	}
+
+	.countdown-number{
+		margin: 1px;
+		font-size: 10px;
 	}
 
 	.email-input-area{
