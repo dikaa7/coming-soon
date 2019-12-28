@@ -1,38 +1,35 @@
+// Set the date we're counting down to
 let dataDate = document.querySelector('.countdown').dataset.date;
-let dataYear = date.split('/')[0];
-let dataMonth = date.split('/')[1];
-let dataDay = date.split('/')[2];
-let dataHour = 0;
-let dataMinute = 0;
-let dataSecond = 0;
-let currentDate = new Date();
-let currentYear = currentDate.getFullYear();
-let currentMonth = currentDate.getMonth();
-let currentDay = currentDate.getDay();
-let currentHour = currentDate.getHours();
-let currentMinute = currentDate.getMinutes();
-let currentSecond = currentDate.getSeconds();
+let countDownDate = new Date(dataDate).getTime();
 
-function getDays(){
-	let yearGap = dataYear - currentYear;
-	let monthGap = dataMonth - currentMonth;
-	let dayGap = dataDate - currentDay;
-	let days = 0;
+// Update the count down every 1 second
+function countdown() {
+	// Get today's date and time
+	let now = new Date().getTime();
 
-	if(yearGap > 0){
-		days = yearGap*365
-	}
+	// Find the distance between now and the count down date
+	let distance = countDownDate - now;
 
-	if(monthGap > 0){
-		days = monthGap*30;
-	} else {
-		days = days - 365 
-	}
+	// Time calculations for days, hours, minutes and seconds
+	let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	// Display the result in the element with id="demo"
+	document.getElementsByClassName('day')[0].innerText = days;
+	document.getElementsByClassName('hour')[0].innerText = hours;
+	document.getElementsByClassName('minute')[0].innerText = minutes;
+	document.getElementsByClassName('second')[0].innerText = seconds;
+
+
+	// If the count down is finished, write some text
+	setInterval(function() {
+		countdown();
+		if (distance < 0) {
+			document.getElementsByClassName('title')[0].innerText = "Lanching";
+		}
+	}, 1000);
 }
 
-function countdownTime(){
-	if(isExists('.coundown')){
-		let days = counf
-	}
-}
-
+countdown();

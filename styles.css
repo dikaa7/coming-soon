@@ -14,9 +14,9 @@ body {
 .main {
 	position: relative;
 	padding: 1px;
-	background: -webkit-linear-gradient(279deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
-	background: -o-linear-gradient(279deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
-	background: linear-gradient(-9deg, #6a82fbbb 0%, #6a82fbbb 40%, #fc5c7dbb 100%);
+	background: -webkit-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
+	background: -o-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
+	background: linear-gradient(-9deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
 
 }
 
@@ -61,8 +61,8 @@ body {
 }
 
 .email-input:focus {
-	border-color: #f89fbc;
-	box-shadow: inset 0 0 1px rgba(0, 0, 0, .1), 0px 0px 0px 5px #f89fbc66;
+	border-color: #fa163c;
+	box-shadow: inset 0 0 1px rgba(0, 0, 0, .1), 0px 0px 0px 5px #f8f8f866;
 
 }
 
@@ -77,12 +77,12 @@ body {
 	text-align: center;
 	border-radius: 40px;
 	transition: all .3s;
-	background: #F84982;
+	background: #d86645;
 	color: #fff;
 }
 
 .submit-btn:hover {
-	background: #e40b52;
+	background: #d85420;
 }
 
 .countdown{
@@ -106,7 +106,7 @@ body {
 .countdown-number{
 	font-size: 2rem;
 	line-height: 1;
-	color: #e40b52;
+	color: #fa4413;
 }
 
 .countdown-text{
@@ -130,11 +130,11 @@ body {
 	padding: 15px;
 	margin: 30px 5px;
 	background: #fff;
-	color: #8f8f8f;
+	color: #fa4443bb;
 }
 
 .social-icon:hover{
-	color: #5f5f5f;
+	color: #fa2213;
 }
 
 .copyright{
