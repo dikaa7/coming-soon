@@ -29,7 +29,7 @@ function countdown() {
 			document.getElementsByClassName('title')[0].innerText = "Lanching";
 		} else {
 			countdown();
-		{
+		}
 	}, 1000);
 }
 
