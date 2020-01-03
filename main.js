@@ -25,10 +25,11 @@ function countdown() {
 
 	// If the count down is finished, write some text
 	setInterval(function() {
-		countdown();
 		if (distance < 0) {
 			document.getElementsByClassName('title')[0].innerText = "Lanching";
-		}
+		} else {
+			countdown();
+		{
 	}, 1000);
 }
 
