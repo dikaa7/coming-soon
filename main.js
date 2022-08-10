@@ -26,7 +26,7 @@ function countdown() {
 	// If the count down is finished, write some text
 	setInterval(function() {
 		if (distance < 0) {
-			document.getElementsByClassName('title')[0].innerText = "Lanching";
+			document.getElementsByClassName('title')[0].innerText = "Launching Web";
 		} else {
 			countdown();
 		}

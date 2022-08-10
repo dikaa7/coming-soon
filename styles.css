@@ -17,6 +17,7 @@ body {
 	background: -webkit-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
 	background: -o-linear-gradient(279deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
 	background: linear-gradient(-9deg, #fa163fbb 0%, #fa163fbb 30%, #f8b400bb 100%);
+	height: 100vh;
 }
 
 .container {
